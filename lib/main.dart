@@ -16,12 +16,13 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: RaisedButton.icon(
-          onPressed: () {},
+        child: IconButton(
+          onPressed: () {
+            print('you clicked me');
+          },
           icon: Icon(
-            Icons.mail
+            Icons.alternate_email
           ),
-          label: Text('mail me'),
           color: Colors.amber,
         ),
       ),
