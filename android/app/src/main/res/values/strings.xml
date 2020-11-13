@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">device library</string>
+
+    <!--Preferences-->
+    <string name="jnj_last_count">jnj_last_count</string>
+    <string name="jnj_last_time">jnj_last_time</string>
+</resources>
